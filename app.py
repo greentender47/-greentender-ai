@@ -5,7 +5,7 @@ import requests
 from io import BytesIO
 
 app = Flask(__name__)
-openai.api_key = "YOUR_OPENAI_API_KEY"  # यहाँ अपनी OpenAI API key लगाओ
+openai.api_key = "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"  # यहाँ अपनी OpenAI API key लगाओ
 
 @app.route('/ask', methods=['POST'])
 def ask():
